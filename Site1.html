@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Portfolio Sacha</title>
+</head>
+<body>
+    <script>
+        for (let i = 0; i < 100; i++) {
+            let star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * window.innerWidth + 'px';
+            star.style.animationDuration = Math.random() * 3 + 2 + 's'; // random duration
+            star.style.opacity = Math.random(); // random opacity
+            document.body.appendChild(star);
+        }
+    </script>
+
+<div class="navbar">
+    <a id="1" href="a-propos.html">À propos de moi</a>
+    <a id="2" href="cv.html" >CV</a>
+   <a id="3" href="lettre-motivation.html">Lettre de motivation</a>
+   <a id="4" href="projets.html">Mes projets</a>
+
+</body>
+
+
+</html>
